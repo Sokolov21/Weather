@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="100dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ветер">
+
+    </TextView>
+    <TextView
+        android:id="@+id/wind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="">
+
+    </TextView>
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="60dp"
+
+        android:background="@drawable/ic_baseline_arrow_upward_24"
+        android:layout_height="60dp"/>
+    <ImageView
+        android:id="@+id/weather_icon"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Температура"
+        />
+    <TextView
+        android:id="@+id/weather_temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/weather_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
